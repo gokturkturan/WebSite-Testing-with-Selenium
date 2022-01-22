@@ -1,0 +1,1305 @@
+{
+  "id": "d3126dbf-9896-4727-9179-21684bf91b58",
+  "version": "2.0",
+  "name": "https://www.enuygun.com/",
+  "url": "https://www.enuygun.com",
+  "tests": [{
+    "id": "c87a563d-5cd2-43d5-a007-275c642a7a51",
+    "name": "2226Project",
+    "commands": [{
+      "id": "5b143cc0-00fb-4836-9055-83af32b26b1a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e51ba736-6337-4fc7-852f-72226079e4c4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b41937d-2a1a-433d-b9a1-6b32b13a3b78",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctx-LoginBtn",
+      "targets": [
+        ["id=ctx-LoginBtn", "id"],
+        ["linkText=Giriş Yap", "linkText"],
+        ["css=#ctx-LoginBtn", "css:finder"],
+        ["xpath=//a[contains(text(),'Giriş Yap')]", "xpath:link"],
+        ["xpath=//a[@id='ctx-LoginBtn']", "xpath:attributes"],
+        ["xpath=//header[@id='Header']/nav/div/div[8]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[3]", "xpath:href"],
+        ["xpath=//div[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Giriş Yap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "812db1a7-e8a9-4092-b6a4-36100da7106a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid0157:nth-child(2) .MuiGrid0188",
+      "targets": [
+        ["css=.MuiGrid0157:nth-child(2) .MuiGrid0188", "css:finder"],
+        ["xpath=//div/div/div[4]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db8a1c53-b4c5-44fb-96ec-f84c665c3406",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ec44c210-0e5c-4cd1-89d5-cf7a53d073de",
+      "comment": "",
+      "command": "click",
+      "target": "css=.JDAKTe:nth-child(1) .w1I7fb",
+      "targets": [
+        ["css=.JDAKTe:nth-child(1) .w1I7fb", "css:finder"],
+        ["xpath=//div[@id='view_container']/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/ul/li/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d21cc4d-f660-4e00-9cc4-66f228948c6a",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "435a37d5-b0d3-4e17-905b-1cbf11971a28",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Uçak Bileti",
+      "targets": [
+        ["linkText=Uçak Bileti", "linkText"],
+        ["css=.corporate--disable:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Uçak Bileti')]", "xpath:link"],
+        ["xpath=//header[@id='Header']/nav/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.enuygun.com/ucak-bileti/')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Uçak Bileti')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52bc23a3-9032-4de9-8c44-7e712b769be5",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b9346e1-643e-4742-a28d-ed5f3d26c800",
+      "comment": "",
+      "command": "click",
+      "target": "id=OriginInput",
+      "targets": [
+        ["id=OriginInput", "id"],
+        ["css=#OriginInput", "css:finder"],
+        ["xpath=//input[@id='OriginInput']", "xpath:attributes"],
+        ["xpath=//form[@id='FlightSearchForm']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aed5e53b-7366-45fe-aea8-b9bb51a21f7c",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c87ea84b-eaec-4907-b999-7585c276fcfe",
+      "comment": "",
+      "command": "type",
+      "target": "id=OriginInput",
+      "targets": [
+        ["id=OriginInput", "id"],
+        ["css=#OriginInput", "css:finder"],
+        ["xpath=//input[@id='OriginInput']", "xpath:attributes"],
+        ["xpath=//form[@id='FlightSearchForm']/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "İZMİR"
+    }, {
+      "id": "803a303e-9911-4691-a19a-9b9cff05ab1d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.airport > span",
+      "targets": [
+        ["css=.airport > span", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Adnan Menderes Havalimanı')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "99f9dc97-69ea-4dc9-9c35-fc79161fadf7",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6679a12e-2975-4a6b-b6f1-375596b6c24f",
+      "comment": "",
+      "command": "click",
+      "target": "id=DestinationInput",
+      "targets": [
+        ["id=DestinationInput", "id"],
+        ["css=#DestinationInput", "css:finder"],
+        ["xpath=//input[@id='DestinationInput']", "xpath:attributes"],
+        ["xpath=//form[@id='FlightSearchForm']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c00383d1-6f06-4ad0-bd58-ac6d53ade685",
+      "comment": "",
+      "command": "type",
+      "target": "id=DestinationInput",
+      "targets": [
+        ["id=DestinationInput", "id"],
+        ["css=#DestinationInput", "css:finder"],
+        ["xpath=//input[@id='DestinationInput']", "xpath:attributes"],
+        ["xpath=//form[@id='FlightSearchForm']/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "izmi"
+    }, {
+      "id": "a735935d-a93c-4eb0-afe3-d8898aa5669f",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ee4ed27-b3f5-4409-992b-9d788ef32575",
+      "comment": "",
+      "command": "click",
+      "target": "css=#react-autowhatever-1-section-0-item-0 .airport > span",
+      "targets": [
+        ["css=#react-autowhatever-1-section-0-item-0 .airport > span", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-0-item-0']/div/div/div[2]/span", "xpath:idRelative"],
+        ["xpath=//div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Adnan Menderes Havalimanı')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c3fdcfe-9039-493e-9396-d7bbc5a610ea",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "78d8e986-06de-494c-94de-dca1b4a197e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.primary-btn > span:nth-child(1)",
+      "targets": [
+        ["css=.primary-btn > span:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='FlightSearchForm']/div[3]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ucuz bilet bul')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e228a04-ad2e-40cc-8452-19b096ef4850",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38e726b3-7890-4121-b061-248780da7d80",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.primary-btn > span:nth-child(1)",
+      "targets": [
+        ["css=.primary-btn > span:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='FlightSearchForm']/div[3]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ucuz bilet bul')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb6b6da8-92e7-4a8f-b141-221c81ed1ca0",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57ee364d-98e0-4961-835b-5c5f040d1a6a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.primary-btn > span:nth-child(1)",
+      "targets": [
+        ["css=.primary-btn > span:nth-child(1)", "css:finder"],
+        ["xpath=//form[@id='FlightSearchForm']/div[3]/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ucuz bilet bul')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0b41d55-df53-4f1a-8d94-f6b32edc0099",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce4734cd-51d0-48b5-aaca-eb375928bf58",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Otel",
+      "targets": [
+        ["linkText=Otel", "linkText"],
+        ["css=.navbar-nav > .nav-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Otel')]", "xpath:link"],
+        ["xpath=//header[@id='Header']/nav/div/div[2]/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.enuygun.com/otel/')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Otel')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf4190c6-0258-4094-bbec-cfd980cdf201",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c35883c0-3094-46a5-ab03-99a34ffce04a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.HSF__form-box-container:nth-child(1) .sc-hHEiqL",
+      "targets": [
+        ["css=.HSF__form-box-container:nth-child(1) .sc-hHEiqL", "css:finder"],
+        ["xpath=//div[@id='react-tabs-1']/section/div/div/div/section/div/div/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/section/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d5dec25-3b80-4784-8291-f25f485f121a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.sc-hKFxyN",
+      "targets": [
+        ["css=.sc-hKFxyN", "css:finder"],
+        ["xpath=//input[@value='denize sıfır izmi']", "xpath:attributes"],
+        ["xpath=//div[@id='react-tabs-1']/section/div/div/div/div/section/section/div/section/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "denize sıfır izmi"
+    }, {
+      "id": "b744db44-6fe6-45b9-810e-0925af57f756",
+      "comment": "",
+      "command": "click",
+      "target": "css=span:nth-child(6)",
+      "targets": [
+        ["css=span:nth-child(6)", "css:finder"],
+        ["xpath=//li[@id='react-autowhatever-1-section-1-item-0']/div/div[2]/span[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/div/div[2]/span[3]", "xpath:position"],
+        ["xpath=//span[contains(.,'r Otelleri')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "201926f0-3a91-4205-a921-8282223f674b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-lmgQwP > span",
+      "targets": [
+        ["css=.sc-lmgQwP > span", "css:finder"],
+        ["xpath=//div[@id='react-tabs-1']/section/div/div[4]/button/span", "xpath:idRelative"],
+        ["xpath=//div[4]/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Otel Bul')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b18fc4-675a-46fc-89c9-5e157dd4b125",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d6197e7-e73a-44eb-a37f-902a9e11ae57",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_guest-rating_mukemmel-9-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_mukemmel-9-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "134523cc-794c-4a5b-98d9-f0b919c34277",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d5d9a78-1350-4832-bdfe-0b139822f1fd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_guest-rating_cok-iyi-8-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_cok-iyi-8-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba57d071-3c79-416d-bd13-fe4d6a35a751",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "987b978c-fde9-4530-955a-ee7b942275d1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_guest-rating_iyi-7-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_iyi-7-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div[3]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bfcf73f-1d60-4b7c-bce3-ee5c9a11c240",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18547bf0-673c-41a8-bb9c-d97a34207d2f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_guest-rating_normal-6-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_normal-6-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div[4]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "631dc840-d079-4627-a05b-6fa308ad6f66",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f004cac-035c-44ab-881f-283afabfab43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_guest-rating_ortalama-5-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_ortalama-5-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div[5]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cb3fff4-b3ea-44ab-a2f1-a9ce0d2bda53",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7a4f8c7-8230-46b8-9596-31b99ccb9ee3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_guest-rating_cok-iyi-8-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_cok-iyi-8-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44caf698-1745-47c5-8503-5a2cd6445a8f",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd4094f5-dec5-470e-9428-cc029b8e2db3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_guest-rating_iyi-7-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_iyi-7-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div[3]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eec093b5-2e02-479f-875e-c43b3f181d21",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3582ffb4-6204-4090-9192-cc469b437161",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_guest-rating_normal-6-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_normal-6-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div[4]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3b8a31d-d59b-4f59-9abc-c44dc440ecde",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b37ae6a-118f-4c64-9ce0-b7ec666bfc87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_guest-rating_ortalama-5-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_ortalama-5-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div[5]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fd469ceb-024b-4381-8389-2668329e8ba9",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a22439fa-8b0a-4dde-ae21-20a6fd6c808c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.filter_guest-rating_mukemmel-9-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_mukemmel-9-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a2c5918-61cf-4836-9293-e2bb25a39786",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fe020537-5727-42eb-bec6-99807ef5c2d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_guest-rating_mukemmel-9-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_mukemmel-9-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9db83c9-0f78-4023-9789-def5a57009d5",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b06a5a67-3c61-4e9e-82d5-528f165f0b31",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.filter_guest-rating_mukemmel-9-ve-uzeri",
+      "targets": [
+        ["css=.filter_guest-rating_mukemmel-9-ve-uzeri", "css:finder"],
+        ["xpath=(//input[@type='checkbox'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[3]/div[2]/div/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44911c9d-378c-45d2-afec-87b0fc734a06",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "38615c3d-f5a7-493e-915a-9dc032d1de5e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_child-option_1-cocuk-ucretsiz",
+      "targets": [
+        ["css=.filter_child-option_1-cocuk-ucretsiz", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "291b0075-6754-4bc9-a25a-e2d87c13ef10",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35c5d060-2a04-4eca-b8a8-7f742b1a0750",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_child-option_1-cocuk-ucretsiz",
+      "targets": [
+        ["css=.filter_child-option_1-cocuk-ucretsiz", "css:finder"],
+        ["xpath=//input[@type='checkbox']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "067b4dec-14b6-4872-a4ca-bcac2de50810",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a36b153e-0f93-4e61-ab15-41ef2f468920",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ebdca21-e007-4778-b080-4be3b7fc64c2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='0']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "493f2fb3-6ef2-4b38-a707-5e99189195d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e57e708c-7018-4460-81f9-5e6a587c6d0a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=//input[@value='1000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "f329b932-8667-4f88-b556-60f707e2f91a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-success",
+      "targets": [
+        ["css=.btn-outline-success", "css:finder"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Uygula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3c2c4bb-86b1-45fd-b034-fc533363f09d",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d3ed0a7f-576f-429e-885d-9cfdc8613a1c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='0']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fdf4210-2d2b-4237-b699-279d80bc3992",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='1000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "f04e2a0f-baf4-4225-9c9a-b0d86cc0f8cc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=(//input[@value='1000'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be469b19-e508-482a-ab2a-efd7bcc8f3a5",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=//input[@value='2000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "bd076f50-8c44-4158-a245-9b0d73100302",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-success",
+      "targets": [
+        ["css=.btn-outline-success", "css:finder"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Uygula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4610b25-21eb-4d34-9790-c963b628abb4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='1000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19d09f3c-f3ec-4c1b-8433-80f1c87fe07a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='2000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "95733e1c-f8a5-4952-b930-d498f5659057",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=(//input[@value='2000'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8ab4041-8802-42d3-92de-53bdb457d5a0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=//input[@value='4000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "4000"
+    }, {
+      "id": "d3ce2b56-b318-46b1-8ee9-e488ee22fdf0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-success",
+      "targets": [
+        ["css=.btn-outline-success", "css:finder"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Uygula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6ca1739-2aa4-43d6-9607-d2bab1ac69ef",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72065c55-161f-4bdf-b6a8-7a8e9bb46317",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='2000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6741d23-20d3-4403-be58-dad29180cd76",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='4000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "4000"
+    }, {
+      "id": "fdc54453-8652-4510-8d94-8b815802a9fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=(//input[@value='4000'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c6dd6e-7801-4cb2-a303-3e1e28ca046a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=//input[@value='8000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "8000"
+    }, {
+      "id": "89e03c41-edef-4d83-8a7c-c792a02ac690",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-success",
+      "targets": [
+        ["css=.btn-outline-success", "css:finder"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Uygula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c88b6b81-1c45-4ae5-b40d-8563741997a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='4000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "117344c4-e62e-435e-a364-b1141cd63905",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='8000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "8000"
+    }, {
+      "id": "03204ac5-10de-4ce9-8395-34136f10cbdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=(//input[@value='8000'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37ef63d4-d74e-42b6-bf63-96990243e2ef",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=//input[@value='15000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "15000"
+    }, {
+      "id": "b2158a69-6baa-414e-bff3-dcba60dea20d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-success",
+      "targets": [
+        ["css=.btn-outline-success", "css:finder"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Uygula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "36f58508-48de-48dd-ab0e-53f79c138480",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='8000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc3182ba-841f-49e5-9002-3a4a8f7a2b5a",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='15000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "15000"
+    }, {
+      "id": "30c312a7-552a-4818-85ea-e5daa61e6c85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=(//input[@value='15000'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e45ba884-0e25-4852-b4ab-d811a3be0bc1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=//input[@value='26000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "26000"
+    }, {
+      "id": "7b755fdc-b0d0-4274-95ce-396411af070f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-success",
+      "targets": [
+        ["css=.btn-outline-success", "css:finder"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Uygula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "504f069c-2176-4a64-86d1-13ac7b877a0d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='15000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "040996f1-239a-49bd-8d0c-a30d97b26b24",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_min-tl",
+      "targets": [
+        ["css=.filter_total-room-price_min-tl", "css:finder"],
+        ["xpath=//input[@value='26000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "26000"
+    }, {
+      "id": "14d64c4d-9d61-4e46-8ddf-d86af6cb517d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=(//input[@value='26000'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8099a54-d9e5-4c86-a183-5ec003acae89",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=//input[@value='30000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "30000"
+    }, {
+      "id": "575627c2-c758-439d-8305-aed528b168f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-success",
+      "targets": [
+        ["css=.btn-outline-success", "css:finder"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Uygula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bdb7a39-a2ce-4ca8-9a41-b467af7ab40e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=//input[@value='30000']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bc126f4-083e-421f-a74e-0748da1a6d5d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.filter_total-room-price_maks-tl",
+      "targets": [
+        ["css=.filter_total-room-price_maks-tl", "css:finder"],
+        ["xpath=//input[@value='9999999']", "xpath:attributes"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/div[3]/label/input", "xpath:idRelative"],
+        ["xpath=//div[3]/label/input", "xpath:position"]
+      ],
+      "value": "9999999"
+    }, {
+      "id": "43b670e5-68e2-46be-9944-eb71491dad58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-success",
+      "targets": [
+        ["css=.btn-outline-success", "css:finder"],
+        ["xpath=//div[@id='appRoot']/div[2]/div/div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div[2]/div/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Uygula')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4b240ec-b865-4120-b999-83755213f263",
+      "comment": "",
+      "command": "click",
+      "target": "css=.align-middle",
+      "targets": [
+        ["css=.align-middle", "css:finder"],
+        ["xpath=//header[@id='Header']/nav/div/div[4]/a/span[2]/span", "xpath:idRelative"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13bd4acc-bc12-4846-b284-25e4d56f995e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-item:nth-child(8) span",
+      "targets": [
+        ["css=.dropdown-item:nth-child(8) span", "css:finder"],
+        ["xpath=//header[@id='Header']/nav/div/div[4]/div/a[8]/div[2]/span", "xpath:idRelative"],
+        ["xpath=//a[8]/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Kayıtlı Kartlarım')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4dde1f6-8d40-48c7-82ed-23daf5976aef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ml-1",
+      "targets": [
+        ["css=.ml-1", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div/div/div[2]/div/a/button/span/span", "xpath:idRelative"],
+        ["xpath=//button/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1286ac9c-89d3-432a-a9d2-45c8a144462b",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cea922c4-a652-448f-b138-389598d8c8c1",
+      "comment": "",
+      "command": "click",
+      "target": "name=card_number",
+      "targets": [
+        ["name=card_number", "name"],
+        ["css=.katalon__card-number", "css:finder"],
+        ["xpath=//input[@name='card_number']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ce67a77-e33e-4177-b3f8-4171820f2cd9",
+      "comment": "",
+      "command": "type",
+      "target": "name=card_number",
+      "targets": [
+        ["name=card_number", "name"],
+        ["css=.katalon__card-number", "css:finder"],
+        ["xpath=//input[@name='card_number']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "6666 6666 6666 6666"
+    }, {
+      "id": "2ac80b11-bf26-43c3-94f3-25696654289f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.katalon__month--month",
+      "targets": [
+        ["css=.katalon__month--month", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div[2]/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3f8a8ca-f61b-40f6-b31b-900174210af9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.katalon__month-month-07",
+      "targets": [
+        ["css=.katalon__month-month-07", "css:finder"],
+        ["xpath=//div[@id='menu-month']/div[2]/ul/li[7]", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/ul/li[7]", "xpath:position"],
+        ["xpath=//li[contains(.,'07')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "150a7dd4-987a-4137-b08d-90e0eff766d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.katalon__year--year",
+      "targets": [
+        ["css=.katalon__year--year", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div[2]/div/div[3]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dff6a16-82e5-4ce6-81af-6d7cc0bc5319",
+      "comment": "",
+      "command": "click",
+      "target": "css=.katalon__year-year-2023",
+      "targets": [
+        ["css=.katalon__year-year-2023", "css:finder"],
+        ["xpath=//div[@id='menu-year']/div[2]/ul/li[3]", "xpath:idRelative"],
+        ["xpath=//body/div[4]/div[2]/ul/li[3]", "xpath:position"],
+        ["xpath=//li[contains(.,'2023')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34bf4af8-affd-4a72-b574-bab9f6bc79ed",
+      "comment": "",
+      "command": "click",
+      "target": "name=card_holder",
+      "targets": [
+        ["name=card_holder", "name"],
+        ["css=.katalon__card-holder", "css:finder"],
+        ["xpath=//input[@name='card_holder']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a9511df-e235-4a6d-98f9-53453f6797fc",
+      "comment": "",
+      "command": "pause",
+      "target": "4000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "598c725f-9124-434a-937a-420843f7f84f",
+      "comment": "",
+      "command": "type",
+      "target": "name=card_holder",
+      "targets": [
+        ["name=card_holder", "name"],
+        ["css=.katalon__card-holder", "css:finder"],
+        ["xpath=//input[@name='card_holder']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "Göktürk Turan"
+    }, {
+      "id": "6b9aba16-dfdf-4ffa-b6cb-a3f97f6081d7",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.katalon__card-name", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "51d2d06b-44de-497e-b2cb-f7268d0d9374",
+      "comment": "",
+      "command": "pause",
+      "target": "6000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e93a2b5-b949-4d95-8bc5-f8bcadfee06c",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.katalon__card-name", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div[5]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/input", "xpath:position"]
+      ],
+      "value": "İsmail Altar Ulaş"
+    }, {
+      "id": "7b756125-792a-46c4-b2db-a30e3f9354c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiGrid0155",
+      "targets": [
+        ["css=.MuiGrid0155", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div[7]", "xpath:idRelative"],
+        ["xpath=//form/div/div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "072faae4-5f90-4e5c-a710-93af89c1a541",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MuiButton01286",
+      "targets": [
+        ["css=.MuiButton01286", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div[7]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "349e84be-40d8-4993-908e-a919619b0c02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MuiButton01286",
+      "targets": [
+        ["css=.MuiButton01286", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div[7]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0163fa1e-bd88-44a5-90bc-fb69e46f5879",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MuiButton01286",
+      "targets": [
+        ["css=.MuiButton01286", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div[2]/div[2]/div/form/div/div[7]/div/div[2]/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "093cdee6-ccc5-4b7b-aaa5-e9e64babd010",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c87a563d-5cd2-43d5-a007-275c642a7a51"]
+  }],
+  "urls": ["https://www.enuygun.com/"],
+  "plugins": []
+}
